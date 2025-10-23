@@ -1,0 +1,16 @@
+# caches & bytecode
+__pycache__/
+*.pyc
+
+# local env & data
+.env
+pricing.db
+data/
+datasets/
+models/
+assets/
+static/uploads/
+
+# local envs
+venv/
+node_modules/
