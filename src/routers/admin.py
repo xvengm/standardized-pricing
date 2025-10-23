@@ -8,9 +8,9 @@ from pydantic import BaseModel
 from PIL import Image
 import pdfplumber
 
-from backend.database import get_session
-from backend.services.ingest import standardize_and_store
-from backend.ai import GEMINI_AVAILABLE, extract_rows_from_text, extract_rows_from_file
+from src.database import get_session
+from src.services.ingest import standardize_and_store
+from src.ai import GEMINI_AVAILABLE, extract_rows_from_text, extract_rows_from_file
 
 router = APIRouter()
 
